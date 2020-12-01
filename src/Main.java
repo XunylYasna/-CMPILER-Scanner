@@ -312,7 +312,7 @@ public class Main {
                                 outputLine += TokenType.FPR.toString() + " ";
                                 break;
 
-                            case Qnull:
+                            default:
                                 outputLine += TokenType.ERROR.toString() + " ";
                         }
                     }
